@@ -1,0 +1,40 @@
+
+
+
+
+#layout{
+    background-color: rgb(168, 215, 243);
+    
+    width: 500px;  
+    
+    padding: 5px;
+
+
+    /*Centre l'élément par rapport à l'affichage*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.gauche{
+    text-align: left;
+}
+.droite{
+    text-align: right;
+}
+.justifiée{
+    text-align: justify; 
+    
+}
+
+h2{
+    color: blue;
+    font-size: 1,5em;
+    text-transform: capitalize;
+}
+button{
+    color:blue;
+    background-color:yellow;
+    width: 100px;
+}

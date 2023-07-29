@@ -3,53 +3,54 @@ table {
     width: 50%;
 }
 
-/*th:nth-child(1){
-    background-color: silver;
-    
-}*/
-th{
-    background-color: silver;
-    height:40px
-}
+/* 1ere méthode pour la ligne th
 
+th{
+    background-color: silver;    
+}*/
+
+
+/* 2eme méthode pour la ligne th
+
+th:nth-child(1){
+    background-color: silver;   
+}
+th:nth-child(2){
+    background-color: silver;    
+}*/
+
+/* 3eme méthode pour la ligne th avec le 1er tr*/
+
+tr:nth-child(1){
+    background-color: silver;    
+}
 tr{
     height:40px
 }
 tr:nth-child(2){
-    background-color: #FCC;
-    
+    background-color: #FCC;    
 }
 tr:nth-child(3){
-    background-color: #FCC;
-    
+    background-color: #FCC;    
 }
-
 tr:nth-child(4){
-    background-color: #FCC;
-    
+    background-color: #FCC;    
 }
-
 tr:nth-child(5){
-    background-color: #FFC;
-    
+    background-color: #FFC;    
 }
 tr:nth-child(6){
-    background-color: #CFC;
-    
+    background-color: #CFC;    
 }
 tr:nth-child(7){
-    background-color: #CFF;
-    
+    background-color: #CFF;    
 }
 tr:nth-child(8){
-    background-color: #CcF;
-    
+    background-color: #CcF;    
 }
 tr:nth-child(9){
-    background-color: #CcF;
-    
+    background-color: #CcF;    
 }
 tr:nth-child(10){
-    background-color: #CcF;
-    
+    background-color: #CcF;    
 }

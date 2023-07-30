@@ -1,8 +1,8 @@
 table{ 
     width: 400px;  
-    border-top: 10px solid turquoise;
-    border-left: 10px solid blue;    
+    border-top: 10px solid red;
+    border-left: 10px solid black;    
     border-right: 10px dotted blue;
-    border-bottom: 10px dashed blue;
+    border-bottom: 10px dashed green;
     text-align: center;
 }

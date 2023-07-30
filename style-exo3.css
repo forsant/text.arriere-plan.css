@@ -1,0 +1,8 @@
+table{ 
+    width: 400px;  
+    border-top: 10px solid turquoise;
+    border-left: 10px solid blue;    
+    border-right: 10px dotted blue;
+    border-bottom: 10px dashed blue;
+    text-align: center;
+}
